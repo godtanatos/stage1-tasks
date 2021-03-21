@@ -1,0 +1,16 @@
+.playing {
+  box-shadow: 0 0 10px #00b4a4;
+  color: #00b4a4;
+}
+.playing::before {
+  color: #00b4a4;
+  font-size: 40px;
+}
+.playing::after {
+  color: #00b4a4;
+  font-size: 50px;
+}
+.playing:hover::before,
+.playing:hover::after {
+  color: #00b4a4;
+}
